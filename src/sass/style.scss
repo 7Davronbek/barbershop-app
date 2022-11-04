@@ -1,5 +1,6 @@
 $colorBlue: #00DFFF;
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&display=swap');
+
 @font-face {
     font-family: 'Gilroy-400';
     src: url(../fonts/gilroy-regular.ttf);
@@ -435,31 +436,38 @@ body {
 
     .Painting {
         margin: 100px 0;
+
         @media (max-width:992px) {
             margin: 50px 0;
         }
-        .card{
-            .text{
+
+        .card {
+            .text {
                 margin-top: 25px;
-                h4{
+
+                h4 {
                     font-size: 32px;
                     color: $colorBlue;
                     font-family: 'Cormorant SC', serif;
                     font-weight: 700;
                     margin-bottom: 11px;
+
                     @media (max-width:992px) {
                         font-size: 28px;
                     }
                 }
-                p{
+
+                p {
                     color: #FFFFFF;
                     font-size: 18px;
                     line-height: 19px;
                     margin-bottom: 15px;
                 }
-                .btn{
+
+                .btn {
                     padding: 0;
-                    a{
+
+                    a {
                         font-family: 'Gilroy-700';
                         font-size: 24px;
                         border-bottom: 1px solid $colorBlue;
